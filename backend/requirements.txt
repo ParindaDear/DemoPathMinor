@@ -4,3 +4,5 @@ pdfplumber
 pytesseract
 pillow
 python-multipart
+spacy>=3.0.0
+fpdf2
