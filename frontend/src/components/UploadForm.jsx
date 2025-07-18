@@ -27,7 +27,8 @@ export default function UploadForm() {
                     <pre>{text}</pre>
 
                     <h3>Entities:</h3>
-                    <ul>
+                    <ul style={{ margin: "30px auto", textAlign: "left" 
+                    }}>
                         {entities.map((ent, idx) => (
                             <li key={idx}>
                                 <strong>{ent.text}</strong> ({ent.label}, source: {ent.source})
